@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "ruby.db.elephantsql.com",
+  "port": 5432,
+  "username": "kklbqbmg",
+  "password": "jSqppiSTXJEUWpk-wGdpUbdNeWsNTG52",
+  "database": "kklbqbmg",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
